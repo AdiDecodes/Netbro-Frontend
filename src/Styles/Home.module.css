@@ -1,0 +1,286 @@
+.Container {
+	position: relative;
+}
+
+.mainWrapper {
+	background-color: black;
+	min-height: 100vh;
+	width: 100%;
+	padding: 0 10rem 2rem 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.banner {
+	border-radius: 1rem;
+	width: 90%;
+	height: 20rem;
+	background-color: aliceblue;
+	margin: 2rem 0 0 0;
+}
+
+.ServiceCardWrapper {
+	margin: 2.5rem 0 0 0;
+	width: 90%;
+	display: flex;
+}
+.serviceCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	background-color: aliceblue;
+	width: calc(100% / 3);
+	height: 15rem;
+}
+
+.serviceCard h3 {
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.serviceCard p {
+	text-align: center;
+	margin: 0.5rem 0 0 0;
+	font-size: 1.1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.serviceCard:nth-child(n + 2) {
+	margin: 0 0 0 1.5rem;
+}
+
+.proceed {
+	background-color: orange;
+	padding: 1rem;
+	text-align: center;
+	width: 50%;
+	margin: 2rem 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.proceed:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.formMain {
+	margin: 3rem 0 0 0;
+	border-radius: 1rem;
+	min-height: 5rem;
+	height: auto;
+	background-color: aliceblue;
+	width: 60%;
+}
+
+.formWrapper {
+	padding: 2rem 10% 5rem 10%;
+	height: auto;
+	width: 100%;
+}
+
+.formWrapper h4 {
+	margin: 2rem 0 5rem 0;
+	font-size: 2rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	margin: 2rem 0;
+}
+
+.dropdown {
+	outline: none;
+	border: 1px solid #bababa;
+	padding: 1rem;
+	width: 100%;
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.textarea {
+	display: block;
+	resize: none;
+	width: 100%;
+	font-size: 1.5rem;
+	padding: 1rem;
+	margin: 1rem 0 0 0;
+	border: 1px solid rgb(166, 166, 166);
+}
+
+.textarea::placeholder {
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.textarea:focus {
+	outline: none;
+}
+
+.chkboxWrapper {
+	padding: 0 0.4rem;
+	width: 100%;
+	margin: 1rem 0 0 0;
+}
+
+.chkboxWrapper input {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.chkboxWrapper input:hover {
+	cursor: pointer;
+}
+
+.chkboxWrapper label {
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 1.5rem;
+}
+
+.DatePicker {
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	height: 3rem;
+}
+
+.DatePicker:focus {
+	outline: none;
+}
+
+.heading2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 1.5rem 0;
+}
+
+.heading3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 3rem 0;
+	color: aliceblue;
+}
+
+.addToCart {
+	width: 30%;
+	background-color: orange;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+	margin: 2rem 0 0 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.addToCart p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3rem;
+	margin: 0 0 0 1rem;
+}
+
+.addToCart svg {
+	color: black;
+	font-size: 1.7rem;
+}
+
+.addToCart:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.testimonial {
+	width: 60%;
+	background-color: antiquewhite;
+	min-height: 20rem;
+	border-radius: 0.5rem;
+	margin: 1rem 0 0 0;
+}
+
+.serviceWrapper {
+	display: flex;
+	min-height: 5rem;
+	min-width: 80%;
+	background-color: transparent;
+}
+
+.OtherServiceCard {
+	padding: 2rem;
+	width: calc(100% / 4);
+	min-height: 10rem;
+	border-radius: 0.5rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background-color: aliceblue;
+	transition: all 0.1s ease-in-out;
+}
+
+.OtherServiceCard:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+}
+
+.OtherServiceCard svg {
+	font-size: 2rem;
+	margin: 0 0 1rem 0;
+}
+
+.title {
+	font-size: 1rem;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.OtherServiceCard:nth-child(n + 2) {
+	margin: 0 0 0 2rem;
+}
+
+.viewLinkWrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 1rem 0 0 0;
+}
+
+.viewLinkWrapper h3 {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.viewLinkWrapper svg {
+	margin: 0 0 0 1rem;
+}
+
+.arrowMore {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 0 5rem;
+	font-family: 'Montserrat', sans-serif;
+	color: aliceblue;
+}
+
+.arrowMore:hover {
+	cursor: pointer;
+}
+.arrowMore svg {
+	font-size: 2rem;
+	margin: 0 0 0 1rem;
+}
